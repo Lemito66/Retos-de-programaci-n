@@ -23,6 +23,7 @@ def fizzbuzz(number):
     si el numero es múltiplo de 5 devuelva buzz y si es múltiplo de 3 y 5 devuelva fizzbuzz
     Todo ello se lo añadimos a una lista que devolvemos al final de la función
     '''
+    
     lista_numeros = []
     for item in range(1, number + 1):
         if item % 3 == 0 and item % 5 == 0:
